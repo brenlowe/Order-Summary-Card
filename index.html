@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/app.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="imagecontainer">
+          <img src="/images/illustration-hero.svg" alt="" class="img_preview" />
+        </div>
+        <div class="container">
+          <div class="summary">
+            <h1 class="heading">Order Summary</h1>
+            <p class="text">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+          </div>
+          <div class="plan">
+            <img src="/images/icon-music.svg" alt="musicnote" />
+            <div class="plan_group">
+              <p class="plan_length">Annual Plan</p>
+              <p class="plan_pricing">$59.99/year</p>
+            </div>
+            <a href="">Change</a>
+          </div>
+          <div>
+            <form class="order_options">
+              <button id="button1">Proceed to Payment</button>
+              <button id="button2">Cancel Order</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Brennon Lowe</a>.
+      </div>
+    </main>
+  </body>
+</html>
